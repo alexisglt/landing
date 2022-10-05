@@ -1,7 +1,7 @@
 body {
-  font-family: Chivo;
-  color: yellow;
-  font-size: 25px;
+  font-family: Croboto;
+  color: white;
+  font-size: 16px;
 }
 
 h1, h2, h3 {
@@ -16,20 +16,25 @@ a {
 }
 
 a:hover {
-  color: hotpink;
+  color: black;
 }
 body {
   font-family: Chivo;
   margin: 0;
 }
 
-h1, h2, h3 {
-  color: turquoise;
+h1, h3 {
+  color: white;
+  font-family: Lato;
+}
+
+h2 {
+  color: black;
   font-family: Chivo;
 }
 
 p {
- color: blue;
+ color: #0081a7;
   opacity: .7;
 }
 
@@ -39,7 +44,7 @@ p {
 }
 
 .banner {
-  background-image: linear-gradient(rgba(1,1,1,1.6), rgba(1,1,1,1.6)), url('C:\Users\alexi\Downloads\landing-page-master\landing-page-master\images\background.jpg');
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(https://img.freepik.com/photos-premium/silhouette-homme-qui-lance-balle-dans-panier-basket-dans-rue-contre-ciel-nuages-couleur-noir-blanc_309878-1425.jpg?w=2000);
   background-size: cover;
   background-position: center;
   padding: 150px 0;
@@ -53,12 +58,12 @@ p {
 }
 
 .banner p {
-  color: blue;
+  color: white;
   font-size: 24px;
 }
 
 .button-blue {
-  background-color: #1A48E3;
+  background-color:black;
   color: white;
   padding: 16px 48px;
   border-radius: 4px;
@@ -73,7 +78,7 @@ p {
 }
 
 .card-white {
-  background: white;
+  background: black;
   box-shadow: 0 0 16px rgba(0,0,0,0.1);
   border-radius: 4px;
   width: 200px;
@@ -96,7 +101,7 @@ p {
 .footer {
   background: #404042;
   text-align: center;
-  padding: 24px 0;
+  padding: 20px 0;
 }
 
 .footer p {
